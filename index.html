@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>mozokevgen</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Vue -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+<body>
+
+    <div class="topnav sticky" v-bind:class="{ 'responsive': isActive, 'collapse': !isOpen, 'open': isOpen }" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" style="font-size: 15px;" class="icon" @click="isActive = !isActive">&#9776;</a>
+    </div>
+    <p style="padding: 50px">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nibh nisi, vulputate et metus eget, iaculis vehicula lacus. Nunc aliquam quis augue et dignissim. Mauris quam est, volutpat eget vehicula id, eleifend et libero. Mauris tristique lectus vitae eleifend ullamcorper. Sed sit amet urna consequat, varius nisi eget, laoreet turpis. Nullam finibus quam eu ipsum tempus placerat. Proin ut nisi massa. Morbi ultricies egestas erat sed venenatis. Donec iaculis sodales posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce eu metus et magna dictum vulputate. Maecenas aliquet nec magna eu posuere. Ut blandit pulvinar accumsan.
+
+Nullam mi urna, elementum blandit mi non, accumsan tempus magna. Nam gravida commodo nunc, id scelerisque ex maximus eu. Proin scelerisque nulla vel orci vestibulum, ac facilisis lectus egestas. Proin id est imperdiet dolor fringilla tincidunt a eu magna. Sed eget elementum neque. Proin dictum libero massa, eu consequat ante malesuada ac. Ut sit amet neque ante. Vivamus ante tortor, eleifend faucibus quam sed, tincidunt aliquet felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis non sem non felis tempor auctor. Sed at tincidunt tellus.
+
+Aenean sit amet augue lectus. Nullam finibus viverra nunc, eu eleifend massa placerat at. Vestibulum luctus, magna sed volutpat pellentesque, ex tellus dictum magna, quis mollis turpis ex imperdiet ipsum. Vivamus scelerisque purus non ipsum venenatis, id suscipit quam aliquam. In sagittis ornare neque sit amet iaculis. Suspendisse potenti. Phasellus nulla sem, imperdiet vitae venenatis ut, imperdiet nec quam. Pellentesque aliquam mollis ante id ultrices. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ut ornare sem, accumsan molestie elit.
+
+Suspendisse convallis lacus dolor, et tincidunt turpis eleifend ut. Cras sodales id sapien ut maximus. Morbi quam est, pellentesque ac nulla a, porttitor consequat diam. Vestibulum sed suscipit libero. Quisque molestie malesuada eros euismod ultrices. Cras maximus placerat tortor ac fermentum. Duis ipsum quam, venenatis quis leo quis, convallis commodo nisi. Etiam dictum elit at erat hendrerit feugiat. Aenean id vehicula massa. Nullam eu eros velit. Vivamus volutpat est non dapibus elementum. Praesent eget posuere arcu, in feugiat nisl. Mauris vitae placerat mi.
+
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus cursus, ligula et tempus vestibulum, quam lorem gravida dui, sit amet auctor lacus nulla porttitor urna. Praesent in magna massa. Suspendisse a dapibus justo, vel aliquam ante. Donec varius a leo at venenatis. Suspendisse ullamcorper lorem ut est commodo, et sodales mauris eleifend. Vestibulum ut congue dolor, at lacinia felis. Proin iaculis tempus varius. Integer suscipit, justo eu pharetra ornare, nunc sem euismod magna, ut vulputate nibh lectus euismod magna. Etiam accumsan turpis eu sapien facilisis, ac fermentum metus tempus. Vestibulum laoreet ullamcorper eleifend. Sed pellentesque lectus purus, eget euismod odio suscipit nec. Praesent id magna tellus. Maecenas leo sem, venenatis ac ex in, posuere fermentum velit. Sed dapibus dictum felis quis posuere.
+    </p>
+    <script src="main.js"></script>
+</body>
+</html>

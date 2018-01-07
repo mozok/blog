@@ -1,0 +1,13 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.html",
+  "author": "mozokevgen",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1"
+  },
+  "dependencies": {
+    "eslint": "^4.14.0"
+  }
+}
